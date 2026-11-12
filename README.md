@@ -98,4 +98,8 @@ static/          interface
 
 ## Licence
 
-MIT. Questline ne fournit et ne télécharge aucun jeu, BIOS ou clé : utilise uniquement des copies de jeux que tu possèdes.
+Code sous licence [MIT](LICENSE). Polices (SIL OFL 1.1), illustrations (CC0) et composants d'interface (MIT) : voir [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+Questline ne fournit et ne télécharge aucun jeu, BIOS ou clé : utilise uniquement des copies de jeux que tu possèdes.
+
+Questline est un projet indépendant, sans lien avec Valve, Epic Games, GOG, Ubisoft, Amazon, Nintendo, Sony ou Microsoft, ni approuvé par eux. Les noms et marques cités appartiennent à leurs propriétaires.

@@ -19,7 +19,8 @@ const CREDITS_MORE = [
   { t: "Typographies", i: "book", items: [
     ["Inter", "Rasmus Andersson", "SIL Open Font License 1.1", "https://github.com/rsms/inter"],
     ["Space Grotesk", "Florian Karsten", "SIL Open Font License 1.1", "https://github.com/floriankarsten/space-grotesk"],
-    ["VT323", "Peter Hull", "SIL Open Font License 1.1", "https://github.com/phoikoi/VT323"] ] },
+    ["VT323", "Peter Hull", "SIL Open Font License 1.1", "https://github.com/phoikoi/VT323"],
+    ["Press Start 2P", "CodeMan38", "SIL Open Font License 1.1", "https://github.com/google/fonts/tree/main/ofl/pressstart2p"] ] },
   { t: "Composants d'interface", i: "sparkles", items: [
     ["Bouton « espace »", "StealthWorm (uiverse.io)", "MIT", "https://uiverse.io/StealthWorm/spotty-horse-48"],
     ["Cartes retournables du top 5", "ElSombrero2 (uiverse.io)", "MIT", "https://uiverse.io/ElSombrero2/tricky-robin-67"] ] },

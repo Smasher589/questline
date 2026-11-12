@@ -6,7 +6,7 @@
   "main": "electron/main.js",
   "author": "Questline contributors",
   "license": "MIT",
-  "homepage": "https://github.com/OWNER/questline",
+  "homepage": "https://github.com/Smasher589/questline",
   "scripts": {
     "start": "electron .",
     "test": "node --test \"test/**/*.test.js\"",
@@ -30,7 +30,9 @@
       "src/**",
       "static/**",
       "assets/**",
-      "package.json"
+      "package.json",
+      "LICENSE",
+      "THIRD_PARTY_NOTICES.md"
     ],
     "win": {
       "target": [
@@ -93,9 +95,17 @@
       "enableEmbeddedAsarIntegrityValidation": true,
       "onlyLoadAppFromAsar": true,
       "enableCookieEncryption": true
-    }
+    },
+    "copyright": "Copyright © 2026 Questline contributors"
   },
   "allowScripts": {
-    "electron@44.10.0": true
+    "electron@44.11.1": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smasher589/questline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Smasher589/questline/issues"
   }
 }
