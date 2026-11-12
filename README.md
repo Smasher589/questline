@@ -1,10 +1,33 @@
+<p align="center"><img src="docs/images/banner.png" alt="Questline : un jeu à la fois, jusqu'au générique" width="100%"></p>
+
+<p align="center">
+  <a href="../../releases/latest"><img alt="Dernière version" src="https://img.shields.io/github/v/release/Smasher589/questline?label=version&color=8b7cf6"></a>
+  <img alt="Windows, macOS, Linux" src="https://img.shields.io/badge/Windows%20%C2%B7%20macOS%20%C2%B7%20Linux-1f1b2e">
+  <a href="LICENSE"><img alt="Licence MIT" src="https://img.shields.io/badge/licence-MIT-ffd25e"></a>
+</p>
+
 # Questline
 
 **Un jeu. Jusqu'au générique.**
 
-Questline choisit avec toi le prochain jeu de ta bibliothèque, le lance, puis **bloque les autres téléchargements Steam** tant que l'histoire n'est pas terminée. La fin est détectée automatiquement grâce aux succès (Steam, Epic, ou sauvegarde du jeu pour certaines consoles émulées).
+Tu as des centaines de jeux et tu n'en termines presque aucun ? Questline choisit avec toi le prochain jeu de ta bibliothèque, le lance, puis **bloque les autres téléchargements Steam** tant que l'histoire n'est pas terminée. La fin est détectée automatiquement grâce aux succès (Steam, Epic, ou sauvegarde du jeu pour certaines consoles émulées).
 
-Windows · Linux (AppImage) · macOS (Intel et Apple Silicon)
+- **Choisir ma quête** : quelques questions sur ton envie et ton rythme, et Questline classe tes jeux selon tes chances d'aller au bout, avec le détail du score.
+- **Toute ta collection réunie** : Steam (compte et famille), Epic, GOG, Ubisoft Connect, Amazon, jeux PC et consoles émulées, avec jaquettes, notes Metacritic, avis de la presse et des joueurs.
+- **Une vraie progression** : date de fin estimée selon ton rythme, palmarès, statistiques, 84 badges, 216 paliers, défis du mois et décors pixel art à débloquer.
+- **Achats mérités** : termine des jeux pour gagner le droit d'en acheter un nouveau dans ta liste de souhaits.
+- **Respect de ta vie privée** : aucun mot de passe, aucun compte relié sans ton accord, rien n'est envoyé à un serveur de Questline.
+
+<p align="center"><a href="../../releases/latest"><b>⬇ Télécharger Questline</b></a> &nbsp;·&nbsp; Windows (installeur ou portable) · macOS (Intel et Apple Silicon) · Linux (AppImage)</p>
+
+| | |
+|---|---|
+| ![Ta quête en cours](docs/images/quete.jpg) | ![Ton top 5 sur mesure](docs/images/top5.jpg) |
+| **Ta quête** : progression, date de fin, journal | **Choisir ma quête** : le top 5 des jeux que tu vas finir |
+| ![Fiche de jeu](docs/images/fiche.jpg) | ![Palmarès](docs/images/palmares.jpg) |
+| **Fiche de jeu** : notes, avis, manette ou clavier | **Palmarès** : or, argent, bronze |
+| ![Badges et défis](docs/images/badges.jpg) | ![Statistiques](docs/images/statistiques.jpg) |
+| **Badges & défis** : niveaux, paliers, défis du mois | **Statistiques** : temps de jeu, genres, activité |
 
 ## Sources de jeux
 
