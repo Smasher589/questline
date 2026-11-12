@@ -1,0 +1,11 @@
+# mises a jour automatiques proposees pour les actions GitHub (epinglees par commit) et les outils npm
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly

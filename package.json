@@ -1,0 +1,101 @@
+{
+  "name": "questline",
+  "productName": "Questline",
+  "version": "2.20.0",
+  "description": "Un jeu. Jusqu'au générique. Choisit ton prochain jeu (Steam, Epic, GOG, émulateurs), bloque les autres téléchargements jusqu'à la fin de l'histoire.",
+  "main": "electron/main.js",
+  "author": "Questline contributors",
+  "license": "MIT",
+  "homepage": "https://github.com/OWNER/questline",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/",
+    "dist": "electron-builder",
+    "dist:win": "electron-builder --win",
+    "dist:linux": "electron-builder --linux",
+    "dist:mac": "electron-builder --mac"
+  },
+  "devDependencies": {
+    "electron": "44.11.1",
+    "electron-builder": "26.18.0"
+  },
+  "build": {
+    "appId": "io.github.questline",
+    "productName": "Questline",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "electron/**",
+      "src/**",
+      "static/**",
+      "assets/**",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/questline.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "artifactName": "Questline-Setup-${version}.${ext}"
+    },
+    "portable": {
+      "artifactName": "Questline-${version}-portable.${ext}"
+    },
+    "linux": {
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "category": "Game",
+      "icon": "assets/questline.png",
+      "artifactName": "Questline-${version}.${ext}"
+    },
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
+      ],
+      "category": "public.app-category.games",
+      "icon": "assets/questline.png",
+      "artifactName": "Questline-${version}-${arch}.${ext}",
+      "identity": null
+    },
+    "publish": null,
+    "electronFuses": {
+      "runAsNode": false,
+      "enableNodeOptionsEnvironmentVariable": false,
+      "enableNodeCliInspectArguments": false,
+      "enableEmbeddedAsarIntegrityValidation": true,
+      "onlyLoadAppFromAsar": true,
+      "enableCookieEncryption": true
+    }
+  },
+  "allowScripts": {
+    "electron@44.10.0": true
+  }
+}
