@@ -9,7 +9,7 @@
   "homepage": "https://github.com/OWNER/questline",
   "scripts": {
     "start": "electron .",
-    "test": "node --test test/",
+    "test": "node --test \"test/**/*.test.js\"",
     "dist": "electron-builder",
     "dist:win": "electron-builder --win",
     "dist:linux": "electron-builder --linux",
