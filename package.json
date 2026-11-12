@@ -16,7 +16,7 @@
     "dist:mac": "electron-builder --mac"
   },
   "devDependencies": {
-    "electron": "44.11.1",
+    "electron": "45.2.3",
     "electron-builder": "26.18.0"
   },
   "build": {
